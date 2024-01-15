@@ -1,0 +1,220 @@
+:root {
+  --img: "./bg-light2.jpg";
+  --bgColor: #fafafa;
+  --fontColor: #494c6b;
+  --formColor: white;
+  --control: #9495a5;
+  --doira: #e3e4f1;
+  --alohida: #d1d2da;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+#root {
+  font-family: "Josefin Sans", sans-serif;
+  background: var(--bgColor);
+  background-size: contain;
+}
+.container {
+  max-width: 540px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.nav {
+  padding-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin-bottom: 4rem;
+}
+.logo {
+  color: white;
+  font-family: Josefin Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 15px;
+}
+.footer {
+  color: var(--control);
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.194px;
+}
+.nav img {
+  cursor: pointer;
+}
+.darkBody {
+  background: url(bg-dark.jpg) no-repeat top, var(--bgColor);
+}
+.bg-img {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.all-form {
+  max-width: 100%;
+  margin-bottom: 9.3rem;
+}
+.all-form form {
+  padding: 2rem 0 2rem 2.4rem;
+  background-color: var(--formColor);
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+.all-form form input {
+  color: var(--control);
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.25px;
+}
+::placeholder {
+  color: var(--control);
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.25px;
+  z-index: 2;
+}
+.doira {
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--control);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.form-content {
+  padding: 2rem 0 2rem 2.4rem;
+  background-color: var(--formColor);
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+}
+.alohida {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  padding-bottom: 1.9rem;
+  border-bottom: 1px solid var(--doira);
+}
+
+.alohida span {
+  color: var(--alohida);
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.25px;
+  text-decoration-line: line-through;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  padding-bottom: 1.9rem;
+  border-bottom: 1px solid var(--doira);
+  padding-top: 2rem;
+  cursor: pointer;
+}
+.card span {
+  color: var(--fontColor);
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.25px;
+  margin-right: 70%;
+}
+.card img {
+  cursor: pointer;
+}
+.doira:hover {
+  border: 1px solid #5df;
+}
+.form-foot {
+  padding-top: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+.how-much {
+  color: var(--control);
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.194px;
+  margin-right: 9.6rem;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 1.9rem;
+  margin-right: 6.6rem;
+}
+.feature span {
+  color: var(--control);
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.194px;
+  cursor: pointer;
+}
+.kok{
+  color: #3a7cfd !important;
+}
+.feature span:active {
+  color: var(--fontColor);
+}
+.clear {
+  color: var(--control);
+  text-align: right;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.194px;
+  cursor: pointer;
+}
+.clear:active {
+  color: var(--fontColor);
+}
+.dark {
+  --img: "bg-dark.jpg";
+  --bgColor: #171823;
+  --fontColor: #c8cbe7;
+  --formColor: #25273d;
+  --control: #767992;
+  --doira: #393a4b;
+  --alohida: #4d5067;
+}
+.hid {
+  display: none;
+}
